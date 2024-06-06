@@ -27,7 +27,9 @@ public class SampleTest {
     public void test() {
         //System.out.println("SampleTest class is Executed");
     	Reporter.log("Sampletest class is Executed",true); 
-	    	Reporter.log("Sampletest class is modified",true); //because it is not pre-fixed with test");
+	    	Reporter.log("Sampletest class is modified",true); 
+	                	Reporter.log("Sampletest class is modified again and again",true); 
+	Reporter.log("Sampletest class is modified again swati",true);//because it is not pre-fixed with test");
 	
     }
 }
