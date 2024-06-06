@@ -14,6 +14,9 @@ public class MercedesTest
 		driver.manage().window().maximize();
 		driver.get("https://www.mercedes-benz.com/en/");
 		Reporter.log("MercedesTest class executed",true);
+		Reporter.log("MercedesTest class modified",true);
+		Reporter.log("MercedesTest class modified again",true);
+		
 
 	}
 
